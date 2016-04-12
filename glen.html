@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type= "text/css" href="glen.css">
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+ <script>
+ function initialize() {
+ var mapCanvas = document.getElementById('map');
+ var mapOptions = {
+    center: new google.maps.LatLng(45.543559, -122.580937),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+ var map = new google.maps.Map(mapCanvas, mapOptions)
+ 
+ var marker = new google.maps.Marker({
+  position: new google.maps.LatLng(45.543559, -122.580937),
+  map: map,
+  icon: iconBase + 'schools_maps.png'
+});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+	  
+	  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+</script>
+<title>
+Glenhaven
+</title>
+</head>
+<body>
+ 
+
+<div id="banner">
+<ul>
+	<li><a href="glen.html">Gleanhaven</a></li>
+	<li><a href="ed.html">Ed Benedict</a></li>
+	<li><a href="alberta.html">Alberta</a></li>
+</ul>
+<br>
+<br>
+<h1>Glenhaven</h1>
+</div>
+<div id="rowone">
+<div id="map">
+</div>
+<div id="tomb">
+<img src="Glenhaven-tombstone.jpg" alt="">
+</div>
+</div>
+
+<div id="rowtwo">
+<div id="info">
+<p>The skatepark is 11,000 sq ft, featuring a 5,500-sq-ft street course and 5,500 sq ft of "tranny" 
+(transition) area. The tranny area includes a 9'-deep "peanut bowl" with a 4'-deep shallow end with 
+stairs and a separate rectangular bowl. The street area includes hubba ledges; stamped brick bank; banks,
+ ledges and manual pads; handrails; stairs; two pyramid hips; a quarter pipe; and two "dude chutes." -Portland's Parks and Recreation
+</p>
+</div>
+</div>
+<div  id="big">
+<img src="glenhaven-overview.jpg" class="resize" alt="">
+<p>Glenhaven or Glen has two bowls (right) and a street area (left). The street part has a spot to drop in and do tricks over the hip and has lots of ledges and rails to hit on the way back.
+</p>
+</div>
+
+
+<div id="youtube">
+<div id="video" class="newsize" >
+<iframe width="666" height="430" src="https://www.youtube.com/embed/i4JiOuRNhj4" frameborder="0" allowfullscreen></iframe>
+<p>"Glenidict" is a skate video showing the features that Glenhaven and Ed Bennidict have to offer. The skaters are locals that spend every minute they can at the park.
+</p>
+</div>
+<div id="montage">
+<iframe width="666" height="430" src="https://www.youtube.com/embed/Ji3NLEhOVIo" frameborder="0" allowfullscreen></iframe>
+<p>This skate video is filled with some of the best skaters in Portland. SKAPO and 4BK team up to bring this 7 minute skate video to life. Showing off their grabs and fliptricks in their home of Gleanhaven.
+</p>
+</div>
+</div>
+<div class="imagetext" >
+<img width="500" height="250" src="glenhaven-pool.jpg" class="newsize" alt="">
+<p>The pool at Glen is gnarly to say the least. With a 9 foot drop in, only advanced skaters can do any tricks in it. It has a 4 foot drop in on one side and intermeatate skaters can pump around the bowl for fun.
+</p>
+</div>
+<div class="imagetext">
+<img width="500" height="250" src="glenhaven-bowl.jpg" alt="">
+<p> Glen's bowl is rectangular with a lot of hips to either pump for more speed or to trick over. There are both round and pointed hips. Anyone famillar with transition skateing can ride in this bowl.
+</div>
+<div class="imagetext">
+<img width="500" height="250" src="glenhaven-stepup.jpg" alt="">
+<p>There is a bank, a 3 stair step-up, and a six set all right next to each other. If they are up for it, skaters can go for the hubba or one of the two rails this spot has to offer.
+</div>
+</body>
+</html>
+
+
+

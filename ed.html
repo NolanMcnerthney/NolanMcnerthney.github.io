@@ -1,0 +1,94 @@
+<html>
+<head>
+<link rel="stylesheet" type= "text/css" href="ed.css">
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+ <script>
+ function initialize() {
+ var mapCanvas = document.getElementById('map');
+ var mapOptions = {
+    center: new google.maps.LatLng(45.495461, -122.557096),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+ var map = new google.maps.Map(mapCanvas, mapOptions)
+ 
+ var marker = new google.maps.Marker({
+  position: new google.maps.LatLng(45.495461, -122.557096),
+  map: map,
+  icon: iconBase + 'schools_maps.png'
+});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+	  
+	  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+</script>
+<title>
+Ed Benedict
+</title>
+</head>
+<body>
+ 
+
+<div id="banner">
+<ul>
+	<li><a href="glen.html">Gleanhaven</a></li>
+	<li><a href="ed.html">Ed Benedict</a></li>
+	<li><a href="alberta.html">Alberta</a></li>
+</ul>
+<br>
+<br>
+<h1>Ed Benedict</h1>
+</div>
+<div id="rowone">
+<div id="map">
+</div>
+<div id="zoom">
+<img src="bird-eye.jpg" alt="">
+</div>
+</div>
+<div id="rowtwo">
+<div id="info">
+<p>18,000 sq ft of street skating with ledges, edges, stairs, rails, and banks. By using recycled and/or 
+sustainable materials in its construction, and with its native landscaping and on-site stormwater treatment, this site is considered to be the first environmentally sensitive skate plaza ever constructed. 
+
+Tread Lightly is a multifaceted art installation by Dan Garland, integrated into the skate plaza. It is 
+meant to provoke thought regarding the intersection between natural and man made environments, and points 
+towards a search for balance and sustainability. -Portland's Parks and Recreation
+</p>
+</div>
+</div>
+<div  id="biiig">
+<img src="big-three.jpg" class="resize" alt="">
+<p>The "big three" is a 3 block that is the same size as ed's 5 stair and is a good way to pratice landing with some impact for intermediate skaters. For advance skaters they can challenge themselves by trying to ollie up the 3.
+</p>
+</div>
+
+
+<div id="youtube">
+<div id="video" class="newsize" >
+<iframe width="666" height="430" src="https://www.youtube.com/embed/i4JiOuRNhj4" frameborder="0" allowfullscreen></iframe>
+<p>"Glenidict" is a skate video showing the features that Glenhaven and Ed Bennidict have to offer. The Skaters in this video are doing very advaced tricks.
+</p>
+</div>
+<div id="montage">
+<iframe width="666" height="430" src="https://www.youtube.com/embed/1MCjQLoT2sM" frameborder="0" allowfullscreen></iframe>
+<p>This skate montage was filmed entirly in Ed. They show off a Fakie Back Side Bigger spin on the 3 block as their opening trick, an insaine trick that looked effortless.
+</p>
+</div>
+</div>
+<div class="imagetext" >
+<img src="5-rail.jpg" class="newsize" alt="">
+<p>The 5 stair at Ed has a rail in the middle and two hubbas on each sides. Intermediated skaters can practice tricks over the stair set. Advance skaters can go for grinds or slides on the features.
+</p>
+</div>
+<div class="imagetext" id="rail">
+<img width="500" height="250" src="edbenedict_skate.jpg" alt="">
+<p> The 3 stair has a rail with a bank on the other side. It is perfect for learning how to do grinds on a slanted rail with a low risk factor because of how close to the ground it is. It is still a challenge to hit, but if you mess up you have hope of catching your fall.
+</div>
+
+</body>
+</html>
+
+
+
